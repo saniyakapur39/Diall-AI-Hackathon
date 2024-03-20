@@ -16,7 +16,7 @@ file_path = Path(__file__).parent / "hashed_pw.pkl"
 with file_path.open("rb") as file:
     hashed_passwords = pickle.load(file)
 
-st.image("/Users/mansidabriwal/Desktop/Hackathon/therapy.jpeg")
+st.image("/Users/skap/Desktop/Hackathon/therapy.jpeg")
 
 
 authenticator = stauth.Authenticate(names, usernames, hashed_passwords,
